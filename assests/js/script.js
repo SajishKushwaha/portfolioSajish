@@ -95,7 +95,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         phone: document.getElementById("phone").value,
         message: document.getElementById("message").value,
     };
-    emailjs.send('service_85l1id4', 'template_kya5xt7', params)
+    emailjs.send('service_7u9z20q', 'template_kya5xt7', params)
         .then(function (response) {
             console.log('SUCCESS!', response.status, response.text);
             document.getElementById("contact-form").reset();
